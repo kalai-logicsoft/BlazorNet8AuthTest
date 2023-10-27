@@ -1,0 +1,12 @@
+﻿@page "/login"
+
+@using Microsoft.AspNetCore.Mvc;
+
+@attribute [IgnoreAntiforgeryToken]
+
+<PageTitle>Login</PageTitle>
+
+<form method="post" action="/user-login">
+    <input type="submit" value="Sing-in Now..!" />
+
+</form>
